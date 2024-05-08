@@ -2,7 +2,7 @@ function checkForSpam(message)
 {
 
 
-const newMessage  = message..toLowerCase();
+const newMessage  = message.toLowerCase();
 
 if(newMessage.includes("spam" || "sale"))
     {
